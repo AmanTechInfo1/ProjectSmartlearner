@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.OurOfficeGreenEfforts {
+  background-color: black;
+  padding-bottom: 6rem;
+  padding-top: 1rem;
+  font-family: "Antonio", sans-serif;
+}
+.eCsfront {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.eCSfrontSection {
+  background-color: rgb(3, 154, 3);
+  color: white;
+  border-radius: 13em/3em;
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+}
+.eCSfrontSection h2 {
+  font-size: 8rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: white;
+}
+.eCSfrontSection hr {
+  opacity: 1;
+  border: 2px solid white;
+  margin-bottom: 2rem;
+}
+.eCSfrontSection p {
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 600px;
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.ourSecondryDiv {
+  padding: 2rem 1rem;
+  max-width: 1140px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.headinSection {
+  text-align: center;
+}
+.headinSection h2 {
+  font-size: 4rem;
+  color: white;
+}
+.headinSection img {
+  max-width: 300px;
+  width: 100%;
+}
+.ourSecondryPSec {
+  padding: 2rem 0px;
+}
+.ourSecondryPSec p {
+  max-width: 900px;
+  width: 100%;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 780px) {
+  .eCSfrontSection h2 {
+    font-size: 6rem;
+  }
+  .headinSection h2 {
+    font-size: 3rem;
+  }
+
+  .ourSecondryPSec p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .eCSfrontSection h2 {
+    font-size: 4.5rem;
+  }
+  .headinSection h2 {
+    font-size: 2.5rem;
+  }
+}
+
+.ourOPresEfforts hr {
+  opacity: 1;
+  border: 2px solid white;
+  margin: 0px;
+}
+.ourOPresEffortsHead {
+  padding: 2rem 1rem;
+  max-width: 1140px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ourOPresEffortsHead h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+.ourOPresList ul {
+  padding: 1rem 1rem;
+}
+.ourOPresList ul li {
+  display: flex;
+
+  align-items: center;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  gap: 40px;
+}
+.ourOPresList ul li span {
+  max-width: 80px;
+  width: 100%;
+}
+.ourOPresList ul li span img {
+  max-width: 70px;
+  width: 100%;
+}
+.ourOPresList ul li p {
+  color: white;
+  font-size: 1.2rem;
+}
+@media (max-width: 780px) {
+  .ourOPresEffortsHead h2 {
+    font-size: 2.5rem;
+  }
+  .ourOPresList ul li p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .ourOPresList ul li span {
+    max-width: 60px;
+    width: 100%;
+  }
+  .ourOPresList ul li span img {
+    max-width: 50px;
+    width: 100%;
+  }
+}
